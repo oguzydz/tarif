@@ -259,7 +259,7 @@ if ($_POST) {
         <?php }
         ?>
 
-        <form action="bakliyat.php" method="post" class="p-3 bg-light pb-5 rounded-lg">
+        <form action="index.php" method="post" class="p-3 bg-light pb-5 rounded-lg">
             <div class="form-group">
                 <label for="exampleFormControlFile1">URL</label>
                 <input class="form-control" type="text" placeholder="Bağlantı - https://www.nefisyemektarifleri.com/video/mercimek-koftesi-nasil-yapilir/" name="url">
