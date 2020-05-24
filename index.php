@@ -246,6 +246,9 @@ if ($_POST) {
         ?>
             <div class="alert alert-danger" role="alert">
                 Bu tarif listemde var, başka dene! 🙄
+                <a class="btn btn-dark btn-sm ml-3" target="_blank" data-toggle="collapse" href="tarif.json" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    dosyayı görüntüle
+                </a>
             </div>
         <?php }
         ?>
@@ -255,6 +258,9 @@ if ($_POST) {
         ?>
             <div class="alert alert-success" role="alert">
                 Oh be şimdi daha çok bilgilendim! 😋😎😂
+                <a class="btn btn-dark btn-sm ml-3" data-toggle="collapse" target="_blank" href="tarif.json" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    dosyayı görüntüle
+                </a>
             </div>
         <?php }
         ?>
